@@ -1,15 +1,15 @@
 # Huang-Ching-Wei
 This project contains source code for Dataset, Model, Testing and some utilization used in Deep Variational Transfer Learning and Classification(DVTLC).
 
-We use Python2 and run on Ubunto, we also use the following library: Theano, matplotlib, scikit-learn(optional).
-Please make sure you already install these library before runing the project.
+We use Python2 and run on Ubuntu, we also use the following libraries: Theano, matplotlib, scikit-learn(optional).
+Please make sure you already install these libraries before runing the project.
 
-We first breiefly describe the content of each folder. For detail, please see the Readme.txt in each folder.
+We first briefly describe the content of each folder. For detail, please see the Readme.txt in each folder.
 
 ## Folder-Dataset
 Here contains code for data genearation and data preprocessing.
-We use three data set: Inter-Twining Moon(Synthetic Data), Office(Image), Amazon Reviews(Seniment).
-In this project we don't contatins the data of Office and Amazton Reviews.
+We use three data sets: Inter-Twining Moon(Synthetic Data), Office(Image), Amazon Reviews(Seniment).
+In this project we don't contain the data of Office and Amazon Reviews.
 Please download from the provider website.
 
 Office : https://cs.stanford.edu/~jhoffman/domainadapt/#datasets_code (please download the Office-Caltech)
@@ -35,6 +35,6 @@ For the proposed model, we have Variational Adversarial Neural Network and Varia
 ## Folder-Experiment
 Here contains the testing code for experiment.
 One can just consider the codes as a example that how to use the model and training.
-We also makes some tool to visualize trained features and results to help evaulating the models.
+We also make some tools to visualize trained features and results to help evaulating the models.
 
 !! Before run the code, please change the path of dataset file and the path of Folder Model in the following codes: every testing codes, XXFeaturePlot.py and DataPackage.py in Amazon_Reviews. And create Folder named "Experimental_Result" at each folders of experiments
