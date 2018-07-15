@@ -1,4 +1,4 @@
-We have three dataset and the accroding codes.
+We have three datasets and the accroding codes.
 
 Folder Synthetic_Data
 We write code to generate the Twinmoon data.
@@ -18,15 +18,15 @@ feature:<count> .... feature:<count> #label#:<label>       #features refer to un
 To run the code, please place the four folder(books, dvd, electronics, kitchen, each contatin negative.review, positive.review and unlabeled.review) in this folder.
 
 Preprocess_file2corpus.ipynb : 
-This code tanslate the origin features into the format for scikit-learn and pick up the label value.
+This code translates the origin features into the format for scikit-learn and pick up the label value.
 It will package the result of negative.review, positive.review and unlabeled.review into one pickle.
 
 Preprocess_corpus2tfidf_seperate.ipynb : 
-This code use the previous result pickle and run tf-idf process.
+This code uses the previous result pickle and runs tf-idf process.
 It will pick reviews from any two domains and run tf-idf process.                                         
 
 Preprocess_corpus2tfidf_union.ipynb : 
 This code use the previous result pickle and run tf-idf process.
 It will use reviews from all domains and run tf-idf process.
 
-The difference of "seperate" and "union" is the scope of the useing corpus.
+The difference of "seperate" and "union" is the scope of using corpus.
